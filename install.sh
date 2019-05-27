@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="Configuration installation ver-0.0.0"
+VERSION="Configuration installation ver-`git describe`"
 USER=`id -u -n`
 CURRENT_DIR=`pwd`
 
